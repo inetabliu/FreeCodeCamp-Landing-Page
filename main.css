@@ -1,0 +1,25 @@
+
+* {
+  margin: 0 auto;
+}
+header {
+  position: fixed;
+  width: 100%;
+}
+main{
+  padding-top: 65px;
+}
+nav {
+  display: flex;
+  background: blanchedalmond;
+  justify-content: space-between; 
+}
+img {
+  height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav{
+    flex-direction: column;
+  }
+}
